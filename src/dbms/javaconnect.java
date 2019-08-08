@@ -21,7 +21,7 @@ public class javaconnect {
             Class.forName("java.sql.Driver");
             String path="jdbc:mysql://localhost/jdc";
             String user="root";
-            String pass="sudeendra";
+            String pass="password";
             Connection conn=DriverManager.getConnection(path,user,pass);
             return conn;
         }
